@@ -28,6 +28,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header{
+    width:100%;
+    display: flex;
+    justify-content: center;        
+    padding: 10px 2%;
+    font-size: 14px;
+}
+header a{
+    margin:40px;
+    color:black;
+}
+.image2{
+    display:flex;
+    justify-content: center;
+    margin:20px;
+}
 body {
 	line-height: 1;
 }
@@ -65,10 +81,40 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.aboutP{
+    width: 78%;
+    padding-left: 22%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed gray;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.tileMan{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:22.5%;
+}
+.tiles{
+    width:35%;
+    padding-top: 20px;;
+    margin:6px;
+    border-bottom: 1px dashed gray;
+    border-spacing: 4%;
+}
+.tile img{
+    max-width: 100%;
+}
+button{
+    font-size: medium;
+    border:solid black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px; 
+    width: 150px;
+    height: 50px; 
+    margin:3%;
 }
 
 .top-content {
@@ -104,14 +150,113 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background-color: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background-color: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background-color: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background-color: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background-color: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background-color: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background-color: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background-color: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,12 +270,21 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.LWT{
+    width: 78%;
+    padding-left: 22%;
+    padding-bottom: 20px;  
+}
 
 footer {
     width: 100%;
     background: black;
 }
-
+.aboutFooter{
+    width:100%;
+    padding-left: 21.5%;
+    padding-right: 21.5%;
+}
 footer nav {
     width: 60%;
     display: flex;
