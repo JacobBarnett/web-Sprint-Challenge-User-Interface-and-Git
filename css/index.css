@@ -81,10 +81,40 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.aboutP{
+    width: 78%;
+    padding-left: 22%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed gray;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.tileMan{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:22.5%;
+}
+.tiles{
+    width:35%;
+    padding-top: 20px;;
+    margin:6px;
+    border-bottom: 1px dashed gray;
+    border-spacing: 4%;
+}
+.tile img{
+    max-width: 100%;
+}
+button{
+    font-size: medium;
+    border:solid black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px; 
+    width: 150px;
+    height: 50px; 
+    margin:3%;
 }
 
 .top-content {
@@ -240,12 +270,21 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.LWT{
+    width: 78%;
+    padding-left: 22%;
+    padding-bottom: 20px;  
+}
 
 footer {
     width: 100%;
     background: black;
 }
-
+.aboutFooter{
+    width:100%;
+    padding-left: 21.5%;
+    padding-right: 21.5%;
+}
 footer nav {
     width: 60%;
     display: flex;
